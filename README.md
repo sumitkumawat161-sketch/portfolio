@@ -2,7 +2,7 @@
 
 A modern, responsive, and interactive developer portfolio built using **React**, **Vite**, and **Tailwind CSS**. This portfolio showcases my projects, technical skills, achievements, and contact information in a clean and professional design.
 
-🌐 **Live Demo:** https://your-portfolio.vercel.app
+🌐 **Live Demo:** https://portfolio-alpha-eight-75ih8vppfy.vercel.app/
 
 ---
 

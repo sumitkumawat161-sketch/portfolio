@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0f;
+}
+
+::selection {
+  background-color: rgba(79, 70, 229, 0.35);
+  color: #fff;
+}
+
+/* Thin, subtle scrollbar to match dark theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #23232f;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #33334a;
+}
+
+@layer components {
+  /* Reusable container width used across all sections */
+  .section-container {
+    @apply mx-auto w-full max-w-6xl px-6 sm:px-8 lg:px-10;
+  }
+
+  /* Reusable section vertical spacing */
+  .section-padding {
+    @apply py-20 sm:py-24;
+  }
+
+  /* Rounded card with subtle border + shadow, used across Skills/Projects/Achievements */
+  .card {
+    @apply rounded-2xl border border-base-border bg-base-850/60 shadow-card backdrop-blur-sm;
+  }
+
+  /* Primary call-to-action button */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-primary-600 px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-primary-700 hover:shadow-glow active:scale-[0.98];
+  }
+
+  /* Secondary / outline button */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-base-border bg-base-800/60 px-6 py-3 text-sm font-semibold text-ink-100 transition-all duration-200 hover:border-primary-600/50 hover:text-white active:scale-[0.98];
+  }
+
+  /* Small monospace eyebrow label used above section headings — nods to the subject (code) */
+  .eyebrow {
+    @apply font-mono text-xs tracking-widest text-primary-400;
+  }
+}

@@ -6,8 +6,8 @@ import { aboutText } from '../data/info.js'
 const highlights = [
   {
     icon: FiCpu,
-    title: 'Electronics & Communication',
-    description: 'B.Tech student building a strong foundation in core engineering principles.',
+    title: 'MNIT Jaipur',
+    description: 'Pursuing B.Tech in Electronics & Communication Engineering with a strong interest in software development and AI.',
   },
   {
     icon: FiCode,

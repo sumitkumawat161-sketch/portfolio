@@ -1,4 +1,9 @@
-import { HiOutlineCode, HiOutlineLightBulb, HiOutlineChip } from 'react-icons/hi'
+import {
+  HiOutlineCode,
+  HiOutlineTrophy,
+  HiOutlineLightningBolt,
+  HiOutlineBadgeCheck,
+} from 'react-icons/hi'
 
 // Achievement cards shown in the Achievements section.
 export const achievements = [
@@ -6,19 +11,25 @@ export const achievements = [
     icon: HiOutlineCode,
     title: '500+ DSA Problems Solved',
     description:
-      'Consistently practiced Data Structures & Algorithms across multiple platforms to build strong problem-solving fundamentals.',
-  },
-  
-  {
-    icon: HiOutlineLightBulb,
-    title: 'Strong DSA Foundations',
-    description:
-      'Solid grasp of core data structures, algorithms, and their real-world applications in building efficient software.',
+      'Solved 500+ Data Structures & Algorithms problems across LeetCode and GeeksforGeeks, strengthening problem-solving and algorithmic thinking.',
   },
   {
-    icon: HiOutlineChip,
-    title: 'AI & Full Stack Focus',
+    icon: HiOutlineTrophy,
+    title: '1600+ LeetCode Rating',
     description:
-      'Actively exploring the intersection of AI/ML and full-stack engineering to build intelligent, production-ready products.',
+      'Achieved a 1600+ rating on LeetCode through consistent competitive programming and algorithmic problem solving.',
+  },
+  {
+    icon: HiOutlineLightningBolt,
+    title: '602nd Rank in LeetCode Contest',
+    description:
+      'Secured a 602nd rank in a LeetCode Contest by solving algorithmic problems under competitive time constraints.',
+  },
+  {
+    icon: HiOutlineBadgeCheck,
+    title: 'Ninja Slayground 2.0',
+    description:
+      'Successfully completed the 21-Day Coding Challenge by Coding Ninjas, maintaining consistent daily coding practice.',
   },
 ]
+

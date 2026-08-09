@@ -18,10 +18,4 @@ export const personalInfo = {
   },
 }
 
-export const aboutText = {
-  paragraphs: [
-    "I'm a B.Tech student in Electronics & Communication Engineering with a strong passion for Full Stack Development, Artificial Intelligence, and Machine Learning.",
-    'Over time, my curiosity for how systems work has pulled me toward building real, end-to-end software — from responsive web interfaces to backend services and AI-powered features that solve real-world problems.',
-    "I enjoy the process of turning an idea into a working product: designing the architecture, writing clean code, and iterating until it's genuinely useful. Whether it's a full-stack application or an AI agent, I care about building things that are practical, reliable, and thoughtfully engineered.",
-  ],
-}
+export const aboutText = { paragraphs: [ 'I am a B.Tech student in Electronics & Communication Engineering at Malaviya National Institute of Technology, Jaipur, with a strong focus on Software Engineering, Full Stack Development, and AI/ML.', 'I enjoy building complete, practical products — from responsive React interfaces and scalable Node.js backends to AI-powered features using Python, FastAPI, RAG, LangChain, Gemini, and vector databases.', 'With 500+ DSA problems solved and hands-on experience building full-stack, AI, and systems projects, I focus on writing reliable code, solving real-world problems, and continuously improving my engineering skills.', ], }

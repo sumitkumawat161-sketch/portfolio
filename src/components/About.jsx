@@ -6,20 +6,33 @@ import { aboutText } from '../data/info.js'
 const highlights = [
   {
     icon: FiCpu,
-    title: 'MNIT Jaipur',
-    description: 'Pursuing B.Tech in Electronics & Communication Engineering with a strong interest in software development and AI.',
+    title: 'Malaviya National Institute of Technology, Jaipur',
+    description: (
+      <>
+        B.Tech in Electronics & Communication Engineering (2023–2027) •{' '}
+        <strong>CGPA: 7.89</strong>
+      </>
+    ),
   },
   {
     icon: FiCode,
     title: 'Full Stack + AI/ML',
-    description: 'Passionate about building complete products, from UI to AI-powered backends.',
+    description:
+      'Building end-to-end applications using React, Node.js, Python, FastAPI, RAG, LangChain, and modern AI technologies.',
   },
   {
     icon: FiTarget,
-    title: 'Real-World Problem Solving',
-    description: 'Motivated by using software to solve practical, everyday problems.',
+    title: 'Problem Solving & Systems',
+    description: (
+      <>
+        <strong>500+ DSA problems</strong> solved •{' '}
+        <strong>1600+ LeetCode rating</strong> • Hands-on experience with
+        algorithms, multithreading, backend systems, and performance testing.
+      </>
+    ),
   },
 ]
+
 
 export default function About() {
   return (
